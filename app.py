@@ -14,7 +14,7 @@ if not api_key:
 os.environ["OPENAI_API_KEY"] = api_key
 
 # Initialize the QABot with the PDF
-my_chatbot = QABot.pdf_qa(input_files=["alumni_details.pdf"])
+my_chatbot = QABot.pdf_qa(input_files=["M.SC. Decision & Computer Sciences.pdf"])
 
 # Define FastAPI app
 app = FastAPI()
