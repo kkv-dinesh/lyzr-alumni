@@ -1,5 +1,10 @@
-fastapi 
-python-dotenv 
-uvicorn 
-aenum
-lyzr
+fastapi==0.95.0
+python-dotenv==1.0.0
+uvicorn==0.23.0
+aenum==3.1.11
+lyzr==0.2.0
+haystack==1.14.0
+farm-haystack==1.14.0
+transformers==4.35.0
+torch==2.1.0
+swig==4.1.1
